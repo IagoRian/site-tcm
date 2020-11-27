@@ -1,0 +1,132 @@
+/*cabeçalho*/
+header{
+    width: 100%;
+    height: 10%;
+    padding: 0.6%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+	background-color:#202020;
+}
+
+@media only screen and (min-width: 650px)
+{	
+	#espaco
+		{
+		width: 40%;
+		height: 57%;
+		}
+	
+	#menu ul li a  
+		{
+			font-size:3vw;
+			
+		}
+	
+	
+		
+}
+	#tdl_header 
+	{
+			display:table;
+			float:left;
+	}
+	
+	#espaco
+		{
+		width: 20%;
+		height: 57%;
+		}
+		
+	#menu ul li 
+	{
+    list-style:none;
+    display:inline;
+	
+	}
+	
+	#menu ul li a
+	{
+    font-size:0.5vw;
+	text-decoration:none;
+    color:white;
+	}
+
+#menu ul li a:hover
+{
+    color: rgb(255,0,0)
+}
+
+.pagecolor{
+    color: rgb(255,0,0)
+}
+
+/*imagens*/
+#logo{
+    height: 20%;
+}
+#banner{
+    margin-left: -2%;
+    width: 102.4%;
+}
+#brasil{
+    margin-top: -0.5%;
+    height: 40%;
+    margin-left: 95%;
+}
+#eua{
+    margin-top: -0.5%;
+    height: 40%;
+    margin-left: 95%;
+}
+
+
+.membrosft
+{
+	height:40%;
+	
+}
+
+/*meio do corpo */
+
+.tblmembros
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+.espaçoMem
+{
+	width: 6%;
+	background-color:rgb(255,255,255);
+   
+}
+.espaçoNm
+{
+	text-align:center;
+}
+.tableColor
+{
+	background-color:rgba(170, 194, 198, 0.659);
+}
+/*rodapé*/
+footer{
+    margin-top: 10%;
+    width: 96.01%;
+    height: 5%;
+    padding: 2%;
+    margin-right: 0%;
+    margin-left: 0%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    background-color: #202020;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#direitos{
+    margin-top: 1%;
+    font-size: 130%;
+}
